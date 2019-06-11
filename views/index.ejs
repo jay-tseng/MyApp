@@ -1,0 +1,40 @@
+<%- include('bootheader') -%>
+<%- include('menubar') -%>
+<h1>JBS 2019</h1>
+
+    <div class="jumbotron">
+      <h1>Jay's</h1>
+      <h1>Personal App</h1>
+
+        <p>Jay Tseng JBS 2019 </p>
+    </div>
+
+    <ul>
+      <!-- <li><a href="/griddemo">Demo of Bootstrap Grid system</a></li> -->
+      <!-- <li><a href="/myform">Demo of form for my personal app</a></li> -->
+    </ul>
+  <table class="table">
+  <tbody>
+    <tr>
+    <th scope="col">
+    <form method="post" action="/formdata">  URL:
+    </th>
+
+  <th scope="col">
+     <input type="text" name="url"> <br> <br>
+  </tr>
+  <tr>
+    <th scope="col">
+    comments:<br>
+  </th>
+  <th scope="col">
+    <textarea name="theComments"></textarea>
+    <input type="submit">
+  </th>
+
+  </form>
+</tr>
+</tbody>
+</table>
+
+<%- include('bootfooter') -%>
